@@ -1,133 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <title>Visual Dados</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="JS\pagina01.js"></script>
 </head>
-<body>
-    <body>
-        <header class="content">
-            
-            <nav>
-                <ul class="list-menu">
-                   <li>
-                     <a href="index.html">Home</a>
-                 </li>
-     
-                   <li>
-                     <a href="#sobrenos">Sobre Nós</a>
-                  </li>
-     
-                   <li>
-                     <a href="serviços.html">Serviços</a>
-                  </li>
-     
-                   <li>
-                     <a href="contatos.html">Contatos</a>
-                  </li>
-               </ul>
-            </nav>
-        </header>
 
-        <div class="logo">
-            <img src="./.jpg">    
-        </div>
-     
-        <section class="first-section">
-            <div class="conteudo-principal">
-                <h1>Visual Dados </h1>
-                <h2>Visualize seus dados de forma clara e objetva</h2>
-            </div>
-        </section>
-     
-      <section class="sobre-nos" id="sobrenos">
-         <div class="main">
-            <div class="contentsobre">
-                <h2>Sobre nós</h2>
-                <p> A nossa empresa foi criada em 2024
-                 <br>com o intuito de poder proporcionar a 
-                 <br>nossos clientes dados claros e objetivos
-                 <br>para a tomada de decisão.
-                </p>
-            </div>
-            <div class="img-cozinhapizzaria">
-                <img src="./img/cozinhapizzaria.jpg">
-            </div>
-         </div>
-      </section>
-     
-        <section class="dados" id="dados">
-             
-             <div class="itens-dados">
-                 <div>
-                    <div class="info">
-                        <h3>Gráficos</h3>
-                        <img src="./img/calabresa1.png">
-                        <img src="./img/calabresa1.png">
-                        <img src="./img/calabresa1.png">
-     
-                        <h4>Gráfico de Pizza <span></h4>
-                        <h4>Gráfico de Linhas <span></h4>
-                        <h4>Gráfico de Barras <span></h4>
-                    </div>
+<body>
+   <header class="content">
+       <div class="logo">
+               <img src="./img/pizza2023.png">
+               <h3>Visual Dados</h3> 
+       </div>
+       <nav>
+           <ul class="list-menu">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#sobrenos">SOBRE NÓS</a></li>
+              <li><a href="#serviços">SERVIÇOS</a></li>
+              <li><a href="#contatos">CONTATOS</a></li>
+          </ul>
+       </nav>
+   </header>
+
+   <section class="first-section">
+       <div class="conteudo-principal">
+           <h1>Visual Dados </h1>
+           <h2>Melhor servico em dados na região</h2>
+   </section>
+
+ <section class="sobre-nos" id="sobrenos">
+    <div class="main">
+       <div class="contentsobre">
+           <h2>Sobre nós</h2>
+           <p>Somos a visual dados um empresa<br>
+            voltada a prestar um servico de visualização<br>
+            de dados para a sua empresa.
+           </p>
+
+       </div>
+       <div class="img-cozinhapizzaria">
+           <img src="./img/cozinhapizzaria.jpg">
+       </div>
+    </div>
+ </section>
+
+   <section class="cardapio" id="cardapio">
+        <h2>Cardápio</h2>
+        <div class="itens-cardapio">
+            <div>
+               <img src="./img/calabresa1.png">
+               <div class="info">
+                   <h3>Calabresa</h3>
+                   <img src="./img/calabresa1.png">
+                   <img src="./img/calabresa1.png">
+                   <img src="./img/calabresa1.png">
+
+                    <h4>Gráfico de Pizza <span></h4>
+                    <h4>Gráfico de Linhas <span></h4>
+                    <h4>Gráfico de Barras <span></h4>
+                   <input type="submit" value="Pedir agora" onclick="mensagem()">
                </div>
-     
-               <div>
-                    <img src="">
-                    <div class="info">
-                         <h3>Grafico de Pizza</h3>
-                         <h4>Informações bem claras em formato pizza</h4>
-     
-                       
-                         <input type="submit" value="Veja Aqui" onclick="mensagem()">
-                    </div>
-                </div>
-     
-                   <div>
-                      <img src="./img/frangocomcatupiry03.png">
-                      <div class="info">
-                         <h3>Grafico de Linhas</h3>
-                         <h4>Informações relacionadas a longo prazo de acordo com o tempo</h4>
-     
-                           <input type="submit" value="veja Aqui" onclick="mensagem()">
-                      </div>
-                  </div>
-     
-     
-                  <div>
-                     <img src="./img/frangocomcatupiry03.png">
-                     <div class="info">
-                        <h3>Grafico de Barras</h3>
-                        <h4>Informações relacionadas a fazer comparações com o dados</h4>
-     
-                          <input type="submit" value="Veja Aqui" onclick="mensagem()">
-                     </div>
-                 </div>
-     
-        <section class="contatos" id="contatos">
-            <h3>Contatos</h3>
-            <div class="contatos-secao">
-               <div>
-                   <i class="bi bi-telephone"></i>
-                   <span>(81) 5036-7026</span>
+          </div>
+
+            <div>
+              <img src="./img/portuguesa.2.png">
+            <div class="info">
+                 <h3>Grafico de Pizza</h3>
+                 <h4>Informações bem claras em formato pizza</h4>
+
+
+                    <input type="submit" value="Pedir agora" onclick="mensagem()">
                </div>
+           </div>
+
+           <div>
+              <img src="./img/portuguesa.2.png">
+            <div class="info">
+                 <h3>Grafico de Linhas</h3>
+                 <h4>Informações pertinentes ao longo do tempo</h4>
+
+
+                    <input type="submit" value="Pedir agora" onclick="mensagem()">
+               </div>
+
                <div>
-                 <i class="bi bi-instagram"></i>
-                 <span>Visual Dados</span>
-             </div>
+                  <img src="./img/portuguesa.2.png">
+                <div class="info">
+                     <h3>Grafico de Barras</h3>
+                     <h4>Informações relacionadas a comparações de estimativas</h4>
+    
+    
+                        <input type="submit" value="Pedir agora" onclick="mensagem()">
+                   </div>
+
+         <section class="contatos" id="contatos">
+           <h3 >Contatos</h3>
+             <div class="contatos-secao">
+               <div>
+                  <i class="bi bi-telephone"></i>
+                  <span>(81) 6036-7026</span>
+              </div>
+       
+               <div>
+                  <i class="bi bi-instagram"></i>
+                  <span>Visual Dados</span>
+               </div>
+
              <div>
-                 <i class="bi-facebook"></i>
-                 <span>facebook</span>
-             </div>
-         </section> 
-         
-         <footer>
-             <h4>Desenvolvido por Visual Dados</h4>
-         </footer>
-     
+                 <i class="bi bi-facebook"></i>
+                  <span>VISUAL DADOS</span>
+              </div>
+           </div>   
+        </section> 
+
+       <footer>
+          <h4>Desenvolvido por AECMM</h4>
+       </footer>
       </body>
-     </html> 
-</body>
-</html>
