@@ -8,8 +8,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 body{
     color:white;
     background-color:black;
@@ -30,7 +28,135 @@ a{
     text-decoration: none;
 }
 .logo img{
-    width:1.5%;
-    height:1.5%;
-    border-radius:8px;
+    width:9%;
+    height:9%;
+    border-radius:12px;
+}
+
+
+.content .list-menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: green;
+    position: fixed;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    margin: 0px;rem; 
+}
+
+
+.first-section{
+    height: 100vh;
+    background-image:linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(./img/images3.jpg);
+    background-position: center center;
+    background: cover;
+    background-repeat:  no-repeat;
+    background-position -y: 30px ;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first-section .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.first-section h2{
+    color:rgb(177,177,177);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color:  #ffc506; 
+}
+
+
+.button{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Sobre Nós*/
+
+.sobre-nos{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 5rem;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: 400px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    border: 2px solid rgb(150 155 155);   
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/*Visual Dados*/
+
+.section h2{
+    align-items: center;
+}
+
+.itens-dados h2{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(12,12,12,0.8);
+}
+
+.itens-dados h3{
+    font-size: 2rem;
+    color :#e6e6e6;
+    text-transform: times New Romam;   
 }
